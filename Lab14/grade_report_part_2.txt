@@ -1,0 +1,15 @@
+Grades for version committed on time
+	mandelbrot: 50 / 50
+			*Passed test: Achieved ~4x speedup
+		
+	compiler_vectorization: 15.0 / 30
+			*Passed test: t1
+			*Passed test: t2
+			*Failed test: t3 - No dependencies were specified, or were not given in the format specified by the handout.
+			*Passed test: t4
+			*Failed test: t5 - Did not achieve required speedup.
+			*Failed test: t6 - No dependencies were specified, or were not given in the format specified by the handout.
+		
+Total: 65.0 / 80
+
+Final Score: 65.0 / 80

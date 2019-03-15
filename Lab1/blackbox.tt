@@ -1,0 +1,10 @@
+# change only the ? to the value 0 or 1
+l s q output
+0 0 0 1
+0 0 1 1
+0 1 0 1
+0 1 1 1
+1 0 0 1
+1 0 1 1
+1 1 0 1
+1 1 1 0

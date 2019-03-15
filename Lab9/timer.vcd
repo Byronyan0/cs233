@@ -1,0 +1,312 @@
+$date
+	Tue Mar 13 16:25:34 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module timer_test $end
+$var wire 32 ! cycle [31:0] $end
+$var wire 1 " TimerInterrupt $end
+$var wire 1 # TimerAddress $end
+$var reg 1 $ MemRead $end
+$var reg 1 % MemWrite $end
+$var reg 32 & address [31:0] $end
+$var reg 1 ' clock $end
+$var reg 32 ( data [31:0] $end
+$var reg 1 ) reset $end
+$scope module t $end
+$var wire 1 $ MemRead $end
+$var wire 1 % MemWrite $end
+$var wire 1 # TimerAddress $end
+$var wire 1 * acknoledge $end
+$var wire 32 + address [31:0] $end
+$var wire 1 ' clock $end
+$var wire 32 , data [31:0] $end
+$var wire 1 ) reset $end
+$var wire 1 - resetOr $end
+$var wire 1 . timeRead $end
+$var wire 1 / timeWrite $end
+$var wire 32 0 cycle [31:0] $end
+$var wire 1 " TimerInterrupt $end
+$var wire 1 1 QEQ $end
+$var wire 32 2 Q2 [31:0] $end
+$var wire 32 3 Q1 [31:0] $end
+$var wire 32 4 D2 [31:0] $end
+$var wire 1 5 AEQ2 $end
+$var wire 1 6 AEQ1 $end
+$scope module alu $end
+$var wire 3 7 control [2:0] $end
+$var wire 32 8 inB [31:0] $end
+$var wire 32 9 out [31:0] $end
+$var wire 1 : zero $end
+$var wire 1 ; negative $end
+$var wire 32 < inA [31:0] $end
+$upscope $end
+$scope module cycleCounter $end
+$var wire 1 ' clk $end
+$var wire 32 = d [31:0] $end
+$var wire 1 > enable $end
+$var wire 1 ) reset $end
+$var reg 32 ? q [31:0] $end
+$upscope $end
+$scope module interruptCycle $end
+$var wire 1 ' clk $end
+$var wire 32 @ d [31:0] $end
+$var wire 1 / enable $end
+$var wire 1 ) reset $end
+$var reg 32 A q [31:0] $end
+$upscope $end
+$scope module interruptLine $end
+$var wire 1 ' clk $end
+$var wire 1 B d $end
+$var wire 1 1 enable $end
+$var wire 1 - reset $end
+$var reg 1 " q $end
+$upscope $end
+$scope module t $end
+$var wire 1 . control $end
+$var wire 32 C d [31:0] $end
+$var wire 32 D o [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bz D
+bx C
+1B
+bx A
+b0 @
+bx ?
+1>
+bx =
+bx <
+x;
+x:
+bx 9
+b1 8
+b0 7
+06
+05
+bx 4
+bx 3
+bx 2
+x1
+bz 0
+0/
+0.
+1-
+b0 ,
+b0 +
+0*
+1)
+b0 (
+0'
+b0 &
+0%
+0$
+0#
+x"
+bz !
+$end
+#5
+0;
+0:
+b1 4
+b1 9
+b1 =
+01
+b11111111111111111111111111111111 3
+b11111111111111111111111111111111 A
+b0 2
+b0 <
+b0 ?
+b0 C
+0"
+1'
+#10
+b0 !
+b0 0
+b0 D
+1#
+1.
+0-
+0'
+1$
+16
+b11111111111111110000000000011100 &
+b11111111111111110000000000011100 +
+0)
+#15
+b10 4
+b10 9
+b10 =
+b1 !
+b1 0
+b1 D
+b1 2
+b1 <
+b1 ?
+b1 C
+1'
+#20
+0'
+#25
+b11 4
+b11 9
+b11 =
+b10 !
+b10 0
+b10 D
+b10 2
+b10 <
+b10 ?
+b10 C
+1'
+#30
+0'
+#35
+b100 4
+b100 9
+b100 =
+b11 !
+b11 0
+b11 D
+b11 2
+b11 <
+b11 ?
+b11 C
+1'
+#40
+0'
+#45
+b101 4
+b101 9
+b101 =
+b100 !
+b100 0
+b100 D
+b100 2
+b100 <
+b100 ?
+b100 C
+1'
+#50
+bz !
+bz 0
+bz D
+1/
+0.
+0'
+1%
+0$
+b110 (
+b110 ,
+b110 @
+#55
+b110 4
+b110 9
+b110 =
+b101 2
+b101 <
+b101 ?
+b101 C
+b110 3
+b110 A
+1'
+#60
+b101 !
+b101 0
+b101 D
+0/
+1.
+0'
+0%
+1$
+#65
+b111 4
+b111 9
+b111 =
+b110 !
+b110 0
+b110 D
+11
+b110 2
+b110 <
+b110 ?
+b110 C
+1'
+#70
+0'
+#75
+b1000 4
+b1000 9
+b1000 =
+b111 !
+b111 0
+b111 D
+1"
+01
+b111 2
+b111 <
+b111 ?
+b111 C
+1'
+#80
+0'
+#85
+b1001 4
+b1001 9
+b1001 =
+b1000 !
+b1000 0
+b1000 D
+b1000 2
+b1000 <
+b1000 ?
+b1000 C
+1'
+#90
+0'
+#95
+b1010 4
+b1010 9
+b1010 =
+b1001 !
+b1001 0
+b1001 D
+b1001 2
+b1001 <
+b1001 ?
+b1001 C
+1'
+#100
+bz !
+bz 0
+bz D
+1-
+0.
+1*
+0'
+1%
+0$
+06
+15
+b11111111111111110000000001101100 &
+b11111111111111110000000001101100 +
+#105
+b1011 4
+b1011 9
+b1011 =
+b1010 2
+b1010 <
+b1010 ?
+b1010 C
+0"
+1'
+#110
+0'

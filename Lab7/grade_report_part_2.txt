@@ -1,0 +1,59 @@
+Grades for version committed on time
+	get origin: 20.0 / 20
+			*Passed test: default
+			*Passed test: default (evil)
+			*Passed test: given
+			*Passed test: given (evil)
+			*Passed test: double
+			*Passed test: double (evil)
+			*Passed test: cascade
+			*Passed test: cascade (evil)
+		
+	is connected: 10.0 / 20
+			*Passed test: same
+			*Failed test: same (evil)
+				*Error running test: 
+					Exception occurred at PC=0x0040064c
+					  Unaligned address in inst/data fetch: 0xdeadc3fe
+			*Passed test: one apart
+			*Failed test: one apart (evil)
+				*Error running test: 
+					Exception occurred at PC=0x0040064c
+					  Unaligned address in inst/data fetch: 0xdeadc10a
+			*Passed test: off_by_one
+			*Failed test: off_by_one (evil)
+				*Error running test: 
+					Exception occurred at PC=0x0040064c
+					  Unaligned address in inst/data fetch: 0xdeadc26e
+			*Passed test: harder
+			*Failed test: harder (evil)
+				*Error running test: 
+					Exception occurred at PC=0x0040064c
+					  Unaligned address in inst/data fetch: 0xdeadc5da
+			*Passed test: cascade
+			*Failed test: cascade (evil)
+				*Error running test: 
+					Exception occurred at PC=0x0040064c
+					  Unaligned address in inst/data fetch: 0xdeadc1d6
+		
+	add line: 40.0 / 40
+			*Passed test: given_1
+			*Passed test: given_1 (evil)
+			*Passed test: given_2
+			*Passed test: given_2 (evil)
+			*Passed test: base
+			*Passed test: base (evil)
+			*Passed test: vertical
+			*Passed test: vertical (evil)
+			*Passed test: reverse
+			*Passed test: reverse (evil)
+			*Passed test: combined
+			*Passed test: combined (evil)
+			*Passed test: full
+			*Passed test: full (evil)
+			*Passed test: cascade
+			*Passed test: cascade (evil)
+		
+Total: 70.0 / 80
+
+Final Score: 70.0 / 80

@@ -1,0 +1,48 @@
+Grades for version committed on time
+	flood fill: 30.0 / 30
+		flood_fill.s: warning: $sp was modified 3 times. Modifying $sp more than at the beginning and end of a function is error prone.
+		flood_fill.s: warning: Found 2 instances of jr $ra. Using multiple return points is error prone. Consider merging return points into a single label.
+			*Passed test: basic
+			*Passed test: basic (evil)
+			*Passed test: base_case
+			*Passed test: base_case (evil)
+			*Passed test: checkers
+			*Passed test: checkers (evil)
+			*Passed test: quadrants
+			*Passed test: quadrants (evil)
+			*Passed test: empty
+			*Passed test: empty (evil)
+			*Passed test: maze
+			*Passed test: maze (evil)
+		
+	count disjoint regions step: 30.0 / 30
+			*Passed test: basic
+			*Passed test: basic (evil)
+			*Passed test: base_case
+			*Passed test: base_case (evil)
+			*Passed test: checkers
+			*Passed test: checkers (evil)
+			*Passed test: quadrants
+			*Passed test: quadrants (evil)
+			*Passed test: empty
+			*Passed test: empty (evil)
+			*Passed test: maze
+			*Passed test: maze (evil)
+		
+	count disjoint regions: 20.0 / 20
+			*Passed test: basic
+			*Passed test: basic (evil)
+			*Passed test: base_case
+			*Passed test: base_case (evil)
+			*Passed test: checkers
+			*Passed test: checkers (evil)
+			*Passed test: quadrants
+			*Passed test: quadrants (evil)
+			*Passed test: empty
+			*Passed test: empty (evil)
+			*Passed test: maze
+			*Passed test: maze (evil)
+		
+Total: 80.0 / 80
+
+Final Score: 80.0 / 80

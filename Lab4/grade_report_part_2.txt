@@ -1,0 +1,15 @@
+Grades for version committed on time
+	palindrome_control: 80.0 / 80.0
+			*Passed test: Trivial
+			*Passed test: Odd length
+			*Passed test: Even length
+			*Passed test: Not palindrome
+			*Passed test: All registers
+			*Passed test: Base equal ending
+			*Passed test: Reset mid run
+			*Passed test: Change base end mid run
+			*Passed test: Subsequent runs
+		
+Total: 80.0 / 80.0
+
+Final Score: 80.0 / 80.0

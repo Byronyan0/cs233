@@ -1,0 +1,42 @@
+Grades for version committed on time
+	keypad: 18.18 / 20
+			*Passed test: abcdefg = 48
+			*Passed test: abcdefg = 28
+			*Passed test: abcdefg = 18
+			*Passed test: abcdefg = 44
+			*Passed test: abcdefg = 24
+			*Passed test: abcdefg = 14
+			*Passed test: abcdefg = 42
+			*Passed test: abcdefg = 22
+			*Passed test: abcdefg = 12
+			*Failed test: abcdefg = 21
+				*Your output: valid = 0 number = 0
+			*Passed test: abcdefg = 00
+		
+	extract_message: 40.0 / 40
+			*Passed test: simple
+				*Encoded message: [85, 46, 3, 38, 48, 127, 127, 0] (U.&0).
+				*Expected decode: [101, 110, 107, 98, 113, 122, 97, 0] (enkbqza)
+				*Actual decode: [101, 110, 107, 98, 113, 122, 97, 0] (enkbqza)
+			*Passed test: 3 words
+				*Encoded message: [133, 1, 156, 26, 65, 255, 223, 0, 110, 193, 214, 226, 17, 255, 255, 0, 4, 6, 14, 6, 0, 15, 14, 0] (AÿßnÁÖâÿÿ).
+				*Expected decode: [115, 104, 101, 108, 108, 32, 112, 101, 114, 109, 101, 97, 116, 105, 111, 110, 32, 110, 111, 100, 0] (shell permeation nod)
+				*Actual decode: [115, 104, 101, 108, 108, 32, 112, 101, 114, 109, 101, 97, 116, 105, 111, 110, 32, 110, 111, 100, 0, 0, 0, 0] (shell permeation nod)
+			*Passed test: 5 words
+				*Encoded message: [157, 32, 127, 42, 64, 255, 255, 0, 180, 0, 83, 87, 4, 255, 247, 0, 116, 38, 68, 84, 43, 255, 127, 0, 150, 52, 243, 48, 12, 255, 255, 0, 166, 115, 181, 33, 64, 255, 247, 0, 75, 22, 78, 133, 144, 255, 223, 0, 115, 106, 28, 8, 100, 127, 127, 0] ( *@ÿÿ´SWÿ÷t&DT+ÿ4ó0ÿÿ¦sµ!@ÿ÷KNÿßsjd).
+				*Expected decode: [101, 108, 101, 109, 101, 110, 116, 97, 108, 108, 121, 32, 109, 97, 108, 97, 112, 114, 111, 112, 105, 115, 109, 32, 100, 101, 115, 112, 111, 110, 100, 101, 110, 99, 101, 32, 102, 111, 114, 101, 105, 103, 110, 101, 114, 32, 101, 120, 97, 99, 116, 110, 101, 115, 115, 0] (elementally malapropism despondence foreigner exactness)
+				*Actual decode: [101, 108, 101, 109, 101, 110, 116, 97, 108, 108, 121, 32, 109, 97, 108, 97, 112, 114, 111, 112, 105, 115, 109, 32, 100, 101, 115, 112, 111, 110, 100, 101, 110, 99, 101, 32, 102, 111, 114, 101, 105, 103, 110, 101, 114, 32, 101, 120, 97, 99, 116, 110, 101, 115, 115, 0] (elementally malapropism despondence foreigner exactness)
+			*Passed test: Thousands of words
+				*Output hidden (too long)
+		
+	count_ones: 40.0 / 40
+			*Passed test: 2
+			*Passed test: 55
+			*Passed test: 42
+			*Passed test: 0xffffffff
+			*Passed test: 0x12345678
+			*Passed test: 0x55555555
+		
+Total: 98.18 / 100
+
+Final Score: 98.18 / 100

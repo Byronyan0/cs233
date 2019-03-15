@@ -1,0 +1,596 @@
+$date
+	Sun Feb 11 15:21:24 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module palindrome_control_test $end
+$var wire 1 ! select $end
+$var wire 1 " palindrome $end
+$var wire 1 # load $end
+$var wire 1 $ front_ge_back $end
+$var wire 1 % done $end
+$var wire 1 & a_ne_b $end
+$var reg 5 ' base [4:0] $end
+$var reg 1 ( clock $end
+$var reg 5 ) ending [4:0] $end
+$var reg 1 * go $end
+$var reg 1 + reset $end
+$var integer 32 , i [31:0] $end
+$scope module circuit $end
+$var wire 5 - base [4:0] $end
+$var wire 1 ( clk $end
+$var wire 5 . ending [4:0] $end
+$var wire 1 $ front_ge_back $end
+$var wire 1 + reset $end
+$var wire 1 ! select $end
+$var wire 1 # load $end
+$var wire 1 / front_lt_back $end
+$var wire 32 0 b [31:0] $end
+$var wire 1 & a_ne_b $end
+$var wire 32 1 a [31:0] $end
+$var reg 5 2 back [4:0] $end
+$var reg 5 3 front [4:0] $end
+$scope module compareCounters $end
+$var wire 5 4 A [4:0] $end
+$var wire 5 5 B [4:0] $end
+$var wire 1 6 ne $end
+$var wire 1 / lt $end
+$upscope $end
+$scope module compareValues $end
+$var wire 1 & ne $end
+$var wire 1 7 lt $end
+$var wire 32 8 B [31:0] $end
+$var wire 32 9 A [31:0] $end
+$upscope $end
+$scope module rf $end
+$var wire 1 ( clock $end
+$var wire 32 : internal_rdData [31:0] $end
+$var wire 32 ; rdData [31:0] $end
+$var wire 5 < rdNum [4:0] $end
+$var wire 1 = rdWriteEnable $end
+$var wire 1 + reset $end
+$var wire 32 > rsData [31:0] $end
+$var wire 5 ? rsNum [4:0] $end
+$var wire 32 @ rtData [31:0] $end
+$var wire 5 A rtNum [4:0] $end
+$var integer 32 B i [31:0] $end
+$upscope $end
+$upscope $end
+$scope module control $end
+$var wire 1 & a_ne_b $end
+$var wire 1 ( clock $end
+$var wire 1 % done $end
+$var wire 1 $ front_ge_back $end
+$var wire 1 * go $end
+$var wire 1 # load $end
+$var wire 1 " palindrome $end
+$var wire 1 + reset $end
+$var wire 1 C sGarbage_next $end
+$var wire 1 D sNp_next $end
+$var wire 1 E sP_next $end
+$var wire 1 F sStart_next $end
+$var wire 1 ! select $end
+$var wire 1 G stest_next $end
+$var wire 1 H stest $end
+$var wire 1 I sStart $end
+$var wire 1 J sP $end
+$var wire 1 K sNp $end
+$var wire 1 L sGarbage $end
+$scope module fsGarbage $end
+$var wire 1 ( clk $end
+$var wire 1 C d $end
+$var wire 1 M enable $end
+$var wire 1 N reset $end
+$var reg 1 L q $end
+$upscope $end
+$scope module fsSp $end
+$var wire 1 ( clk $end
+$var wire 1 E d $end
+$var wire 1 O enable $end
+$var wire 1 P reset $end
+$var reg 1 J q $end
+$upscope $end
+$scope module fsStart $end
+$var wire 1 ( clk $end
+$var wire 1 F d $end
+$var wire 1 Q enable $end
+$var wire 1 R reset $end
+$var reg 1 I q $end
+$upscope $end
+$scope module fssNp $end
+$var wire 1 ( clk $end
+$var wire 1 D d $end
+$var wire 1 S enable $end
+$var wire 1 T reset $end
+$var reg 1 K q $end
+$upscope $end
+$scope module fstest $end
+$var wire 1 ( clk $end
+$var wire 1 G d $end
+$var wire 1 U enable $end
+$var wire 1 V reset $end
+$var reg 1 H q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0V
+1U
+0T
+1S
+0R
+1Q
+0P
+1O
+0N
+1M
+xL
+xK
+xJ
+xI
+xH
+0G
+0F
+0E
+0D
+1C
+b100000 B
+b0 A
+bx @
+b0 ?
+bx >
+z=
+bz <
+bz ;
+bx :
+bx 9
+bx 8
+x7
+06
+b0 5
+b0 4
+b0 3
+b0 2
+bx 1
+bx 0
+0/
+bx .
+bx -
+bx ,
+1+
+0*
+bx )
+0(
+bx '
+x&
+x%
+1$
+x#
+x"
+x!
+$end
+#1
+0#
+0%
+1L
+0I
+0!
+0H
+0"
+0J
+0K
+0G
+0D
+0E
+1C
+0&
+07
+b0 0
+b0 8
+b0 @
+b0 1
+b0 9
+b0 >
+b100000 ,
+0+
+1(
+bz :
+#2
+0(
+#3
+1F
+0C
+1(
+1*
+b1110 )
+b1110 .
+b1011 '
+b1011 -
+#4
+0(
+#5
+1#
+0L
+1I
+1(
+#6
+0(
+#7
+0$
+1/
+b1110 2
+b1110 5
+b1110 A
+16
+b1011 3
+b1011 4
+b1011 ?
+1(
+#8
+17
+b10010001101000100001100100001 0
+b10010001101000100001100100001 8
+b10010001101000100001100100001 @
+1&
+b10001000100010001000100010001 1
+b10001000100010001000100010001 9
+b10001000100010001000100010001 >
+0(
+#9
+1(
+#10
+0(
+#11
+1(
+#12
+0(
+#13
+1(
+#14
+0(
+#15
+1(
+#16
+0(
+#17
+1(
+#18
+0(
+#19
+1(
+#20
+0(
+#21
+1(
+#22
+0(
+#23
+0F
+1G
+1(
+0*
+#24
+0(
+#25
+0G
+1D
+0I
+1!
+1H
+1(
+#26
+0(
+#27
+1%
+0#
+1K
+0!
+0H
+b1101 2
+b1101 5
+b1101 A
+b1100 3
+b1100 4
+b1100 ?
+1(
+#28
+0&
+07
+b0 0
+b0 8
+b0 @
+b0 1
+b0 9
+b0 >
+0(
+#29
+1(
+#30
+0(
+#31
+1(
+#32
+0(
+#33
+0D
+1F
+1(
+1*
+b110 )
+b110 .
+b10 '
+b10 -
+#34
+0(
+#35
+1F
+0%
+1#
+0K
+1I
+1(
+#36
+0(
+#37
+b110 2
+b110 5
+b110 A
+b10 3
+b10 4
+b10 ?
+1(
+#38
+b11001010111111101011101010111110 0
+b11001010111111101011101010111110 8
+b11001010111111101011101010111110 @
+0&
+b11001010111111101011101010111110 1
+b11001010111111101011101010111110 9
+b11001010111111101011101010111110 >
+0(
+#39
+1(
+#40
+0(
+#41
+1(
+#42
+0(
+#43
+1(
+#44
+0(
+#45
+1(
+#46
+0(
+#47
+1(
+#48
+0(
+#49
+1(
+#50
+0(
+#51
+1(
+#52
+0(
+#53
+0F
+1G
+1(
+0*
+#54
+0(
+#55
+1G
+1!
+1H
+0I
+1(
+#56
+0(
+#57
+b101 2
+b101 5
+b101 A
+b11 3
+b11 4
+b11 ?
+1(
+#58
+b11111111111111111111111111111111 0
+b11111111111111111111111111111111 8
+b11111111111111111111111111111111 @
+0&
+b11111111111111111111111111111111 1
+b11111111111111111111111111111111 9
+b11111111111111111111111111111111 >
+0(
+#59
+0G
+1E
+1$
+0/
+06
+b100 2
+b100 5
+b100 A
+b100 3
+b100 4
+b100 ?
+1(
+#60
+b1011001111010001111001010101 0
+b1011001111010001111001010101 8
+b1011001111010001111001010101 @
+0&
+07
+b1011001111010001111001010101 1
+b1011001111010001111001010101 9
+b1011001111010001111001010101 >
+0(
+#61
+0#
+1%
+b11 2
+b11 5
+b11 A
+16
+b101 3
+b101 4
+b101 ?
+0!
+0H
+1"
+1J
+1(
+#62
+b11111111111111111111111111111111 0
+b11111111111111111111111111111111 8
+b11111111111111111111111111111111 @
+0&
+b11111111111111111111111111111111 1
+b11111111111111111111111111111111 9
+b11111111111111111111111111111111 >
+0(
+#63
+1F
+0E
+1(
+1*
+b1011 )
+b1011 .
+b111 '
+b111 -
+#64
+0(
+#65
+1F
+1#
+0%
+1I
+0"
+0J
+1(
+#66
+0(
+#67
+0$
+1/
+b1011 2
+b1011 5
+b1011 A
+b111 3
+b111 4
+b111 ?
+1(
+#68
+b110011001100110011001100110011 0
+b110011001100110011001100110011 8
+b110011001100110011001100110011 @
+0&
+07
+b110011001100110011001100110011 1
+b110011001100110011001100110011 9
+b110011001100110011001100110011 >
+0(
+#69
+1(
+#70
+0(
+#71
+1(
+#72
+0(
+#73
+1(
+#74
+0(
+#75
+1(
+#76
+0(
+#77
+1(
+#78
+0(
+#79
+1(
+#80
+0(
+#81
+1(
+#82
+0(
+#83
+0F
+1G
+1(
+0*
+#84
+0(
+#85
+0I
+1!
+1H
+1(
+#86
+0(
+#87
+b1010 2
+b1010 5
+b1010 A
+b1000 3
+b1000 4
+b1000 ?
+1(
+#88
+0G
+1D
+b10111010101100111101000011010011 0
+b10111010101100111101000011010011 8
+b10111010101100111101000011010011 @
+1&
+b11000000000000011101000011010011 1
+b11000000000000011101000011010011 9
+b11000000000000011101000011010011 >
+0(
+#89
+1$
+0#
+1%
+0/
+06
+b1001 2
+b1001 5
+b1001 A
+b1001 3
+b1001 4
+b1001 ?
+0!
+0H
+1K
+1(
+#90
+0&
+b11111111111111111111111111111111 0
+b11111111111111111111111111111111 8
+b11111111111111111111111111111111 @
+b11111111111111111111111111111111 1
+b11111111111111111111111111111111 9
+b11111111111111111111111111111111 >
+0(
+#91
+1(
+#92
+0(
+#93
+1(
